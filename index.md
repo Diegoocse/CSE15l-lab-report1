@@ -19,6 +19,7 @@ I tested `cat` without any arguments and the absolute path before the command wa
 <img width="281" alt="Screenshot 2024-04-09 at 6 09 21 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/f4f1774e-1e7d-4c45-b280-63c30728b8d4">
 
 
+
 QUESTION 2:
 
 Next I tested `cd` but this time with an argument, "Documents" as my directory. The absolute path previous to this was `/User/diegoortega`. The output when the command was executed was nothing yet when we put the `pwd` command we see the change made since the absolute path went from `/User/diegoortega` to `/Users/diegoortega/Documents`. There were also no errors when this command was executed
@@ -36,7 +37,9 @@ Lastly I test the `cat` command with the directories "Downloads" and "Desktop". 
 
 <img width="429" alt="Screenshot 2024-04-09 at 10 10 30 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c09674fb-066c-4518-831e-b9c4b80b038b">
 
-QUESTION 3
+
+
+QUESTION 3:
 
 
 Now for the files as paths I first started with the `cd` command and I used "newfile.txt" as my argument. The previous absolute path was `/Users/diegoortega`. The output after the command was executed was an error because the command `cd` stands for "change directory" and "newfile.txt" isn't a directory.
@@ -50,7 +53,7 @@ The next command I used was  `ls` and I used the the file "newfile.txt" as my ar
 <img width="377" alt="Screenshot 2024-04-09 at 10 30 21 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/d4b61c1a-5caa-4279-bade-31971088a185">
 
 
-Finally I test cat with a path to the files, "newfile.txt" and "newfile2.txt". The previous absolute path was `/Users/diegoortega`. The output after the command was executed was a sentence consisting of what the files "newfile.txt" and "newfile2.txt" contained.
+Finally I test `cat` with a path to the files, "newfile.txt" and "newfile2.txt". The previous absolute path was `/Users/diegoortega`. The output after the command was executed was a sentence consisting of what the files "newfile.txt" and "newfile2.txt" contained.
 
 
 <img width="481" alt="Screenshot 2024-04-09 at 7 08 43 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/b78b9e36-ae25-41ce-a0e7-b27f09285dbb">
