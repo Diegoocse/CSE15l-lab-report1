@@ -1,6 +1,7 @@
 LAB REPORT 1
 
 QUESTION 1:
+
 I decided to test `cd` first without arguments and the absolute path before the command was run was `/Users/diegoortega`. The output I got was nothing since I didnt include any arguments after `cd`. The output isn't an error since the terminal doesn't explicitly indicate an error.
 
 
@@ -19,6 +20,7 @@ I tested `cat` without any arguments and the absolute path before the command wa
 
 
 QUESTION 2:
+
 Next I tested `cd` but this time with an argument, "Documents" as my directory. The absolute path previous to this was `/User/diegoortega`. The output when the command was executed was nothing yet when we put the `pwd` command we see the change made since the absolute path went from `/User/diegoortega` to `/Users/diegoortega/Documents`. There were also no errors when this command was executed
 
 
@@ -35,6 +37,7 @@ Lastly I test the `cat` command with the directories "Downloads" and "Desktop". 
 <img width="429" alt="Screenshot 2024-04-09 at 10 10 30 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c09674fb-066c-4518-831e-b9c4b80b038b">
 
 QUESTION 3
+
 
 Now for the files as paths I first started with the `cd` command and I used "newfile.txt" as my argument. The previous absolute path was `/Users/diegoortega`. The output after the command was executed was an error because the command `cd` stands for "change directory" and "newfile.txt" isn't a directory.
 
