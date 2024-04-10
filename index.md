@@ -1,0 +1,1 @@
+I decided to test `cd first without arguments and the absolute path before the command was run was /Users/diegoortega. The output I got was nothing since I didnt include a file or directory so that cd would change the directory. The output isn't an error since the terminal doesn't explicitly indicate an error.
