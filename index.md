@@ -17,6 +17,10 @@ Next I tested `cd` but this time with an argument, "Documents". The absolute pat
 
 <img width="362" alt="Screenshot 2024-04-09 at 6 40 34 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/a5f5c841-0248-4084-a902-37e063b0a89f">
 
-I then test `ls` with the argument "Applications". The absolute path before this command was run was `/User/diegoortega`. The output whe the command was executed were the contents that were store in Applications which was Chrome Apps.localized. There were no errors when this command was executed.
+I then test `ls` with the argument "Applications". The absolute path before this command was run was `/User/diegoortega/Documents`. The output whe the command was executed were the contents that were store in Applications which was Chrome Apps.localized. There were no errors when this command was executed.
 
 <img width="573" alt="Screenshot 2024-04-09 at 6 47 26 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/2c227e9b-46e9-4ca4-816b-ce83e5ebba5f">
+
+Finally I test cat with the argument newfile.txt and newfile2.txt
+<img width="481" alt="Screenshot 2024-04-09 at 7 08 43 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/b78b9e36-ae25-41ce-a0e7-b27f09285dbb">
+
