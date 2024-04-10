@@ -12,3 +12,7 @@ I tested `ls` after this without any arguments and the absolute path before the 
 I tested `cat` without any arguments and the absolute path before the command was still the same `/User/diegoortega`. The output I got when using this command was the terminal waiting for me to type something into the terminal. This output wasn't an error as well since the terminal didn't indicate a specific error
 
 <img width="281" alt="Screenshot 2024-04-09 at 6 09 21 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/f4f1774e-1e7d-4c45-b280-63c30728b8d4">
+
+Next I tested `cd` but this time with an argument, "Documents". The absolute path previous to this was `/User/diegoortega`. The output when the command was executed was nothing yet when we put the `pwd` command we see the change made since the absolute path went from `/User/diegoortega` to `/Users/diegoortega/Documents`. There were also no errors when this command was executed
+
+<img width="362" alt="Screenshot 2024-04-09 at 6 40 34 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/a5f5c841-0248-4084-a902-37e063b0a89f">
