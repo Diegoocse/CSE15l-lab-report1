@@ -26,6 +26,11 @@ Lastly I test the `cat` command with the directories "Downloads" and "Desktop". 
 <img width="429" alt="Screenshot 2024-04-09 at 10 10 30 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c09674fb-066c-4518-831e-b9c4b80b038b">
 
 
+Now for the files as paths I first started with the `cd` command and I used "newfile.txt" as my argument. The previous absolute path was `/Users/diegoortega`. The output after the command was executed was an error because the command `cd` stands for "change directory" and "newfile.txt" isn't a directory.
+
+<img width="365" alt="Screenshot 2024-04-09 at 10 20 25 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/6bf2d07e-631a-4594-b5dd-3b786da1b106">
+
+
 Finally I test cat with a path to the files, newfile.txt and newfile2.txt. 
 
 
