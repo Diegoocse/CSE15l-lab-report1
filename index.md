@@ -13,14 +13,21 @@ I tested `cat` without any arguments and the absolute path before the command wa
 
 <img width="281" alt="Screenshot 2024-04-09 at 6 09 21 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/f4f1774e-1e7d-4c45-b280-63c30728b8d4">
 
-Next I tested `cd` but this time with an argument, "Documents". The absolute path previous to this was `/User/diegoortega`. The output when the command was executed was nothing yet when we put the `pwd` command we see the change made since the absolute path went from `/User/diegoortega` to `/Users/diegoortega/Documents`. There were also no errors when this command was executed
+Next I tested `cd` but this time with an argument, "Documents" as my directory. The absolute path previous to this was `/User/diegoortega`. The output when the command was executed was nothing yet when we put the `pwd` command we see the change made since the absolute path went from `/User/diegoortega` to `/Users/diegoortega/Documents`. There were also no errors when this command was executed
 
 <img width="362" alt="Screenshot 2024-04-09 at 6 40 34 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/a5f5c841-0248-4084-a902-37e063b0a89f">
 
-I then test `ls` with the argument "Applications". The absolute path before this command was run was `/User/diegoortega/Documents`. The output whe the command was executed were the contents that were store in Applications which was Chrome Apps.localized. There were no errors when this command was executed.
+I then test `ls` with the argument "Applications" directory as my argument. The absolute path before this command was run was `/User/diegoortega/Documents`. The output whe the command was executed were the contents that were store in Applications which was Chrome Apps.localized. There were no errors when this command was executed.
 
 <img width="573" alt="Screenshot 2024-04-09 at 6 47 26 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/2c227e9b-46e9-4ca4-816b-ce83e5ebba5f">
 
-Finally I test cat with the argument newfile.txt and newfile2.txt
+Lastly I test the `cat` command with the directories "Downloads" and "Desktop". The absolute path previous to this was `/Users/diegoortega`. The output of this was an error saying that the operation wasn't permitted. I think this is because the `cat` command only concatenates files and not directories.
+
+<img width="429" alt="Screenshot 2024-04-09 at 10 10 30 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c09674fb-066c-4518-831e-b9c4b80b038b">
+
+
+Finally I test cat with a path to the files, newfile.txt and newfile2.txt. 
+
+
 <img width="481" alt="Screenshot 2024-04-09 at 7 08 43 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/b78b9e36-ae25-41ce-a0e7-b27f09285dbb">
 
