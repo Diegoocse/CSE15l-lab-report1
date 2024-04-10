@@ -16,3 +16,7 @@ I tested `cat` without any arguments and the absolute path before the command wa
 Next I tested `cd` but this time with an argument, "Documents". The absolute path previous to this was `/User/diegoortega`. The output when the command was executed was nothing yet when we put the `pwd` command we see the change made since the absolute path went from `/User/diegoortega` to `/Users/diegoortega/Documents`. There were also no errors when this command was executed
 
 <img width="362" alt="Screenshot 2024-04-09 at 6 40 34 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/a5f5c841-0248-4084-a902-37e063b0a89f">
+
+I then test `ls` with the argument "Applications". The absolute path before this command was run was `/User/diegoortega`. The output whe the command was executed were the contents that were store in Applications which was Chrome Apps.localized. There were no errors when this command was executed.
+
+<img width="573" alt="Screenshot 2024-04-09 at 6 47 26 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/2c227e9b-46e9-4ca4-816b-ce83e5ebba5f">
