@@ -29,13 +29,12 @@ Next I tested `cd` but this time with an argument, "Documents" as my directory. 
 
 I then test `ls` with the argument "Applications" directory as my argument. The absolute path before this command was run was `/User/diegoortega/Documents`. The output whe the command was executed were the contents that were store in Applications which was Chrome Apps.localized. There were no errors when this command was executed.
 
+<img width="389" alt="Screenshot 2024-04-24 at 10 21 49 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/fbe8150a-faf6-48ca-b83d-a0a67b7370c3">
 
-<img width="518" alt="Screenshot 2024-04-24 at 10 17 58 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c630b59d-7ca8-4a9d-833c-5d6702430fdd">
 
 Lastly I test the `cat` command with my argument being the directory "Downloads". The absolute path previous to this was `/Users/diegoortega`. The output of this was an error saying that the operation wasn't permitted, /Users/diegoortega/Downloads: Is a directory. This is because the `cat` command only concatenates files and not directories.
 
-
-<img width="429" alt="Screenshot 2024-04-09 at 10 10 30 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c09674fb-066c-4518-831e-b9c4b80b038b">
+<img width="518" alt="Screenshot 2024-04-24 at 10 17 58 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/c630b59d-7ca8-4a9d-833c-5d6702430fdd">
 
 
 
